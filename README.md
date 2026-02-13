@@ -21,11 +21,11 @@ Built with `discord.py 2.x`, FarazBot includes automated moderation tools, welco
 
 When a severe trigger (e.g. suspicious link or defined phrase) is detected:
 
-1. The message is removed.
-2. An approval request is sent to the `mod-log` channel.
-3. The server owner can:
-   - ✅ Approve → Kick/Ban user
-   - ❌ Decline → No action taken
+1. The message is removed  
+2. An approval request is sent to the `mod-log` channel  
+3. The server owner can:  
+   - ✅ Approve → Kick/Ban user  
+   - ❌ Decline → No action taken  
 
 This ensures control stays with the server owner.
 
@@ -53,3 +53,43 @@ python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 python bot.py
+````
+
+---
+
+## 🌍 Deployment
+
+FarazBot is designed to run on:
+
+* **Render**
+* **Railway**
+* **VPS**
+* **Any Python 3.12+ environment**
+
+⭐ Recommended: Deploy outside restricted networks for stable Discord connectivity.
+
+---
+
+## 🔒 Required Bot Permissions
+
+Make sure FarazBot has:
+
+* View Channels
+* Send Messages
+* Manage Messages
+* Kick Members (if using kick)
+* Ban Members (if using ban)
+
+⚠️ And the bot role must be above regular members.
+
+---
+
+## 📜 License
+
+MIT License
+
+---
+
+## 👑 Author
+
+Created by **Faraz**
